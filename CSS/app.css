@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.carousel {
+    position: relative;
+}
+
+.slide{
+    display: none;
+}
+
+.arrow__carousel {
+    position: absolute;
+    font-size: 40px;
+	color: white;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.arrow-left{
+    left: 20px;
+}
+
+.arrow-right{
+    right: 20px;
+}
