@@ -3,6 +3,20 @@ let slides = ['./img/01.jpg','./img/02.jpg','./img/03.jpg','./img/04.jpg','./img
 
 console.log(slides)
 
+//Inserimento markup nel DOM
+
+for(i=0; i<5; i++){
+    //creazione div con nome class
+    let divSlide = document.createElement("div");
+    divSlide.classList.add(".slide.d-block")
+    //inserire dentro il div la img
+    divSlide.innerHTML = "<img>";
+    console.log(divSlide)
+
+}
+
+//Avvio programma per cambio img
+
 let slideAttiva = 0
 const slideElement = document.getElementsByClassName('slide')
 console.log(slideElement)
